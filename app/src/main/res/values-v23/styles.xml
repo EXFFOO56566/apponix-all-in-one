@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorSwitchThumbNormal">#ffffff</item>
+        <item name="colorAccent">#ffffff</item>
+
+    </style>
+
+    <style name="ProgressBarTheme" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorAccent">@color/progressBar_color</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="SeekBar" parent="AppTheme">
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlNormal">@color/grey</item>
+    </style>
+
+
+</resources>

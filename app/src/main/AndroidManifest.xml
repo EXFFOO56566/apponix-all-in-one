@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tochy.browser">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE " />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.tochy.browser.Tochy.utils.YouApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:preserveLegacyExternalStorage="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Brouser"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.tochy.browser.Activity.UrldownloadActivity"></activity>
+        <activity android:name="com.tochy.browser.Activity.VideoListFolderActivity" />
+        <activity android:name="com.tochy.browser.Activity.RingtoneselectActivity" />
+        <activity android:name="com.tochy.browser.Activity.RingToneActivity" />
+        <activity android:name="com.tochy.browser.Activity.MusicActivity" />
+        <activity android:name="com.tochy.browser.Activity.WallpaperImageActivity" />
+        <activity android:name="com.tochy.browser.Activity.SelectWallpaperActivity" />
+        <activity android:name="com.tochy.browser.Activity.WallpaperActivity" />
+        <activity android:name="com.tochy.browser.Activity.ImageDisplayActivity" />
+        <activity android:name="com.tochy.browser.Activity.GallaryActivity" />
+        <activity android:name="com.tochy.browser.Activity.LoginActivity" />
+        <activity android:name="com.tochy.browser.Activity.VideoPlayerActivity" />
+        <activity android:name="com.tochy.browser.Activity.browser.BookamrksActivity" />
+        <activity android:name="com.tochy.browser.Activity.browser.BrowserMainActivity" />
+        <activity android:name="com.tochy.browser.Activity.browser.HistoryActivity" />
+        <activity android:name="com.tochy.browser.Activity.browser.TabActivity" />
+        <activity android:name="com.tochy.browser.Tochy.VideoPlayer" />
+        <activity android:name="com.tochy.browser.Tochy.ShowItem" />
+        <activity
+            android:name="com.tochy.browser.Activity.browser.WebActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.tochy.browser.Activity.SpleshActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name="com.tochy.browser.Activity.InstagramActivity" />
+        <activity android:name="com.tochy.browser.Activity.GoogleActivity" />
+        <activity android:name="com.tochy.browser.Activity.WsStatusActivity" />
+        <activity android:name="com.tochy.browser.Activity.MyVideoActivity" />
+        <activity android:name="com.tochy.browser.AppsAddActivity" />
+        <activity android:name="com.tochy.browser.MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9769543735678271~6361326813" />
+
+
+        <service
+            android:name="com.tochy.browser.Activity.FirebaseMessage"
+            android:directBootAware="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/skyblue" />
+    </application>
+
+</manifest>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Apponix Browser</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dialog_message">Do you removed this app ?</string>
+    <string name="dialog_title">Removed</string>
+
+
+    <string name="toggle_tab_switcher_menu_item">Toggle switcher</string>
+    <string name="remove_tab_menu_item">Remove tab</string>
+    <string name="add_tab_menu_item">New tab</string>
+    <string name="clear_tabs_menu_item">Clear all tabs</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="tab_title">Tab %1$d</string>
+    <string name="removed_tab_snackbar">Removed %1$s</string>
+    <string name="cleared_tabs_snackbar">Removed all tabs</string>
+    <string name="undo">Undo</string>
+    <string name="edit_text_hint">Text</string>
+    <string name="empty_view_text">No tabs available</string>
+
+
+    <string name="image">Image</string>
+    <string name="video">Video</string>
+    <string name="isRTL">false</string>
+    <string name="play_more_app">https://play.google.com/store/apps</string>
+
+
+    <string name="insta_app_name">Instagram</string>
+
+    <!--About Page-->
+    <string name="enter_url">Enter Url</string>
+    <string name="enter_valid_url">Enter Valid Url</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="do_u_want_to_download_media_from_pvt">Don\'t Want to Download Media from Private Account?</string>
+    <string name="no_net_conn">No Internet Connection</string>
+    <string name="app_not_available">App Not Available.</string>
+    <string name="whatsapp_not_installed">Whtasapp not installed.</string>
+    <string name="no_app_installed">No application found to open this file.</string>
+
+
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="download_from_private_account">Download from Private Account</string>
+    <string name="paste_link">Paste Link</string>
+    <string name="download">Download</string>
+    <string name="paste">Paste</string>
+    <string name="getting_downloading_link">Getting Downloading Link...</string>
+
+
+    <string name="download_started">Download Started</string>
+    <string name="yes">Yes</string>
+    <string name="view_stories">View Stories and Download from Private Account</string>
+    <string name="login">Login</string>
+    <string name="stories">Stories</string>
+
+
+    <string name="share_txt">Hey view/download this image</string>
+    <string name="share_image_via">Share File via...</string>
+    <string name="share_app_message">Download All Videos using this app. Download Now</string>
+    <string name="loading">loading</string>
+
+</resources>

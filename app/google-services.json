@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "587588695635",
+    "project_id": "apponix-app-browser",
+    "storage_bucket": "apponix-app-browser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587588695635:android:6a62f01848e530089278a6",
+        "android_client_info": {
+          "package_name": "com.codderlab.browser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587588695635-7f9ft3f02vifql70o9kng596p83jefra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codderlab.browser",
+            "certificate_hash": "94beeb29e6a9e8388f6241f6609ff5f0f0dee56f"
+          }
+        },
+        {
+          "client_id": "587588695635-napvn57nom3ghf9lacflrdiarc9sntae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASPcC5rUa3KqYwneaNHZXDH0QUCZI_hLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587588695635-napvn57nom3ghf9lacflrdiarc9sntae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

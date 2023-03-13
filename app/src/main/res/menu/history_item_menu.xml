@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Delete"
+        android:title="Delete" />
+    <item
+        android:id="@+id/addbookmark"
+        android:title="Add to bookmark" />
+    <item
+        android:id="@+id/addtohome"
+        android:title="Add to home screen" />
+    <item
+        android:id="@+id/opennewtab"
+        android:title="Open in new tab" />
+
+</menu>
